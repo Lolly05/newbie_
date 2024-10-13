@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+	width: 100%;
+	height: 100vh;
+}
+header{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.85rem;
+	width: 100%;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.182);
+		
+	
+	
+}
+.logo{
+	width: 100%;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.182);
+}
+.logo h1{
+	font-size: 2.8rem;
+	margin-right:100px ;
+	color: rgb(30, 39, 207)
+}
+h1 .pic{
+	color: brown;
+}
+h1 .pic-one{
+	color: rgb(164, 63, 88);
+}
+input[type="text"]{
+	display: block;
+	width: 300%;
+	height: 40px;
+	padding-left: 35px;
+	margin: 10px;
+	font-size: 1rem;
+	text-align: justify;
+}
+.buttonbtn{
+	width: 10%;
+	position: absolute;
+	top: 10px;
+	left: 1050px;
+	height: 40px;
+	text-align: center;
+	font-size: 1rem;
+	padding: 10px;
+	color: whitesmoke;
+	background-color: rgba(0, 0, 255, 0.599);
+}
+
+nav ul{
+	display: flex;
+	padding:5px;
+	
+	gap: 10px;
+	align-items: center;
+	
+}
+header nav ul li{
+	list-style: none;
+}
+
+
+.nav .link{
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	
+	width: 100%;
+}
+.link li{
+	padding: 0 50px;
+	font-size: 0.8rem;
+	list-style: none;
+	
+	
+}
+.link li a{
+	color: rgb(0,0,0);
+	
+	
+}
+
+	
+.link li a:active, a:visited{
+	text-decoration: underline;
+}
+.link li a:hover{
+	text-decoration: underline;
+	color: rgba(188, 12, 77, 0.957);
+	background-color: rgba(2, 2, 2, 0.004);
+
+}
+
+
+
+.display{
+	width: 100%;
+	position: absolute;
+	top: 150px;
+	height: 250px;
+
+}
+
+
+
