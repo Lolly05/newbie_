@@ -64,7 +64,7 @@ import { useState } from 'react'
 			  />
 			</label>
 			<br />
-			<button type="submit">Sign Up</button>
+			<button type="submit">Sign Up!</button>
 		  </form>
 		);
 	  };
